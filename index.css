@@ -1,0 +1,91 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+/* main section */
+
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+ 
+/* main box */
+.box {
+    width: 34vw;
+    height: 38vh;
+    border: 2px solid rgb(28, 195, 28);
+    border-radius: 13px;
+}
+ 
+/* sub-box */
+
+.sub-box {
+    display: flex;
+    justify-content: center;
+    height: 13vh;
+}
+/* num-box */
+
+.num-box {
+    display: flex;
+    margin: 4px 4px;
+    width: 10vw;
+    color: white;
+    height: 10vh;
+    border: 2px solid rgb(225, 222, 222);
+    border-radius: 13px;
+    justify-content: center;
+    align-items: center;
+}
+ 
+/* color section */
+
+#orange {
+    background-color: orange;
+}
+
+#violet {
+    background-color: violet;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#red {
+    background-color: red;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#gray {
+    background-color: gray;
+}
+/* responsive section */
+
+@media(max-width:400px){
+.box{
+    width: 64vw;
+   
+
+}
+.num-box{
+    width: 30vw;
+}
+}
